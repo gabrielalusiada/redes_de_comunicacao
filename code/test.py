@@ -21,7 +21,7 @@ cursor = connection.cursor()
 #cursor.executemany(insert_query, users)
 
 # como recuperamos dados
-select_query = "SELECT * FROM users"
+select_query = "SELECT * FROM items"
 for row in cursor.execute(select_query):
     print(row)
 
